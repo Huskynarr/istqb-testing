@@ -1,20 +1,71 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ISTQB Master - Zertifizierungstrainer
 
-# Run and deploy your AI Studio app
+Eine interaktive Web-Anwendung zur Vorbereitung auf die ISTQB Foundation Level Zertifizierung.
 
-This contains everything you need to run your app locally.
+## 🎯 Funktionen
 
-View your app in AI Studio: https://ai.studio/apps/drive/1IG6VbfTx02Uu7qsw9Mkghb8Qja5_TOGF
+- **Quiz-Modus**: Teste dein Wissen mit Multiple-Choice-Fragen
+- **Karteikarten**: Lerne mit interaktiven Flashcards
+- **Lernführer**: Strukturierter Leitfaden durch alle Themengebiete
+- **Statistiken**: Verfolge deinen Lernfortschritt
+- **Dark Mode**: Angenehmes Lernen auch bei schlechten Lichtverhältnissen
 
-## Run Locally
+## 🚀 Live-Demo
 
-**Prerequisites:**  Node.js
+Die Anwendung ist verfügbar unter: [https://huskynarr.github.io/istqb-testing](https://huskynarr.github.io/istqb-testing)
 
+## 💻 Lokale Entwicklung
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Voraussetzungen
+
+- Node.js (Version 18 oder höher)
+- npm
+
+### Installation
+
+1. Repository klonen:
+   ```bash
+   git clone https://github.com/Huskynarr/istqb-testing.git
+   cd istqb-testing
+   ```
+
+2. Abhängigkeiten installieren:
+   ```bash
+   npm install
+   ```
+
+3. Optional: Gemini API-Key konfigurieren (für KI-Funktionen):
+   - Erstelle eine `.env.local` Datei
+   - Füge `GEMINI_API_KEY=dein_api_key` hinzu
+
+4. Entwicklungsserver starten:
+   ```bash
+   npm run dev
+   ```
+
+5. Öffne [http://localhost:3000](http://localhost:3000) im Browser
+
+### Verfügbare Befehle
+
+| Befehl | Beschreibung |
+|--------|--------------|
+| `npm run dev` | Startet den Entwicklungsserver |
+| `npm run build` | Erstellt einen Produktions-Build |
+| `npm run preview` | Vorschau des Produktions-Builds |
+
+## 🛠️ Technologie-Stack
+
+- **React** - UI Framework
+- **TypeScript** - Typsichere Entwicklung
+- **Vite** - Build-Tool und Entwicklungsserver
+- **Tailwind CSS** - Styling
+- **Recharts** - Diagramme und Visualisierungen
+- **Lucide React** - Icons
+
+## 📝 Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert.
+
+## 🤝 Beitragen
+
+Beiträge sind willkommen! Bitte erstelle einen Pull Request oder öffne ein Issue für Verbesserungsvorschläge.

@@ -12,7 +12,7 @@ export const TOPICS_FOUNDATION = [
   QuestionTopic.Tools,
 ];
 
-export const GITHUB_URL = "https://github.com/yourusername/istqb-master";
+export const GITHUB_URL = "https://github.com/Huskynarr/istqb-testing";
 
 // --- TRANSLATIONS ---
 
