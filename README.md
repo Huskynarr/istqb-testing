@@ -12,7 +12,7 @@ Eine interaktive Web-Anwendung zur Vorbereitung auf die ISTQB Foundation Level Z
 
 ## 🚀 Live-Demo
 
-Die Anwendung ist verfügbar unter: [https://huskynarr.github.io/istqb-testing](https://huskynarr.github.io/istqb-testing)
+Die Anwendung ist verfügbar unter: [[https://huskynarr.github.io/istqb-testin](https://huskynarr.is-a.dev/istqb-testing/)
 
 ## 💻 Lokale Entwicklung
 
